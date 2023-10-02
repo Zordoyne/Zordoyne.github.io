@@ -1,5 +1,5 @@
 body {
-    background:  repeating-linear-gradient(rgb(255, 187, 0), rgb(55, 0, 255) 10%, rgb(0, 255, 0) 20%);
+    background:  repeating-linear-gradient(rgb(12, 0, 75), rgb(183, 0, 255) 10%, rgb(0, 255, 0) 20%);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: pacifico;
@@ -37,7 +37,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: linear-gradient(rgb(11, 255, 11), rgb(114, 3, 136),rgb(128, 0, 0));
+    background: linear-gradient(rgb(1, 15, 97), rgb(114, 3, 136),rgb(30, 255, 0));
     display: flex;
 }
 .sidebar {
