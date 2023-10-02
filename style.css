@@ -37,7 +37,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: linear-gradient(rgb(11, 255, 11), rgb(255, 166, 0),rgb(128, 0, 0));
+    background: linear-gradient(rgb(11, 255, 11), rgb(114, 3, 136),rgb(128, 0, 0));
     display: flex;
 }
 .sidebar {
