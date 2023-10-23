@@ -1,8 +1,9 @@
 body {
-    background:  repeating-linear-gradient(rgb(0, 217, 255), rgb(51, 0, 53) 10%, rgb(0, 255, 21) 20%);
+    background-image: url(https://wallpapercave.com/wp/wp11284353.jpg);
     color: rgb(0, 255, 242);
     padding: 10px;
-    font-family: Times New Roman;
+    font-family: arial;
+
 }
 #all-contents {
   max-width: 800px;
@@ -21,18 +22,18 @@ h1 {
     align-items: center;
     
     flex: 1;
-    margin: 0;
+    margin: 0px;
 }
 #nav-ul {
     list-style-image: none;
 }
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px;
 }
 a {
     text-decoration: green;
-    color: hsl(175, 100%, 50%);
+    color: hsl(123, 100%, 50%);
 }
 
 /* main container area beneath menu */
@@ -48,13 +49,14 @@ main {
     width: 200px;
 }
 .content {
-    flex: 1;
+    flex: 1px;
     padding: 15px;
 }
 
 /* portfolio styles */
 #interests {
-    border: 4px rgb(0, 1, 65) ridge;
+    border: 4px;
+     color: rgb(0, 255, 98);
     padding: 8px;
 }
 h2, h3 {
@@ -63,7 +65,7 @@ h2, h3 {
 
 /* portfolio styles */
  .content h1 {
-    color: rgb(0, 217, 255);
+    color: rgb(0, 255, 21);
 }
 
 #portfolio {
@@ -84,5 +86,5 @@ h2, h3 {
 
 #portfolio a {
     text-decoration: none;
-    color: #000000;
+    color: #00e1ff;
 }
