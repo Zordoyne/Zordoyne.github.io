@@ -3,9 +3,11 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201024/pngtree-galaxy-background-with-green-and-blue-color-image_433468.jpg);
+
 }
 
 img {
   display: none;
 }
+
