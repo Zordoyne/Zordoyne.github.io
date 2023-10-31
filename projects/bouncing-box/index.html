@@ -7,10 +7,11 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
-			width: 70px;
-			height: 70px;
-			background: linear-gradient(rgb(0, 255, 0), rgb(74, 2, 92));
-			font-size: 300%;
+			width: 90px;
+			height: 90px;
+			background: linear-gradient(rgb(0, 255, 0), rgb(18, 105, 0), rgb(0, 73, 0));
+			font-size: 400%;
+			font-family: cursive;
 			text-align: center;
 			user-select: none;
 			display: block;
@@ -67,16 +68,18 @@
 
 			// TODO 2 - Variable declarations 
 			var positionX = 0
-
-
+			var points = 0
+			var speed = 7
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
 			function update() {
-				positionX = positionX + 1
+				positionX = positionX + speed
 				moveBoxTo(positionX)
+				if (positionX > boardWidth - 90) { speed = speed * -1 }
+				if (positionX < 0) { speed = speed * -1 }
 
 			};
 
@@ -87,8 +90,9 @@
 			*/
 			function handleBoxClick() {
 				positionX = 0
-
-
+				changeBoxText(points);
+				points = points + 1
+				speed = speed + 1
 			};
 		})();
 	</script>
